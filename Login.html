@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Welcome to TreeStan</title>
+    <link rel="stylesheet" type="text/css" href="Website.css" />
+    
+</head>
+<body>
+        <div class="logo">
+            <a href="Homepage.html"><img src="logo.png"/></a>
+        </div>
+        <div class="menu-nav">
+            <ul>
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">DONATE</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <center>
+                <font class="welcome">Welcome!!!</font><br /><br />
+                <form action="Check.php" method="POST">
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td class="label">
+                                <font>Username</font>
+                            </td>
+                            <td>
+                                <input type="text" name="uname" class="txtBox" placeholder="Enter Username"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Password</font>
+                            </td>
+                            <td>
+                                <input type="password" name="pass" class="txtBox" placeholder="Enter Password"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button class="btn1" Name="Submit">Submit</button>
+                                <button class="btn2" Name="Cancel">Cancel</button>
+                            </td>
+                            <tr>
+                            <td align="right"colspan="2">
+                                <font><a href="#">Forgot Password?</a></font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">      
+                                <font>Create an Account</font><br/>
+                                <font><a href="Registration.html">Sign Up</a></font>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>            
+    </div>
+    <div class="footer">
+        &copy;2020 All Rights Reserved
+    </div>
+</body>
+</html>

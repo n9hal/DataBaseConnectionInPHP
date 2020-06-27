@@ -1,0 +1,137 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(BackgroundImg.jpg);
+    background-size: cover;
+}
+
+div {
+    font-family: Calibri,"Times New Roman";
+    color:#16A085;
+}
+
+.message  p{
+    background-color:white;
+    color:white;
+    position:absolute;
+    top:1000px;
+}
+
+
+.logo img {
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    float: top;
+    position: relative;
+    top: 0px;
+}
+
+.menu-nav {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+a {
+    background-color: #16A085;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+li {
+    display: inline-block;
+}
+
+.registration {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    color: #16A085;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.login{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    color: #16A085;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.label{
+    align-content:right;
+    text-align:right;
+    font-size:20px;
+    font-weight:bold;
+}
+.txtBox{
+    width:300px;
+    height:30px;
+    padding: 1px 0 0 0;
+    border-width:1px;
+    border-radius:3px;
+}
+.txt {
+    font-family: "Lucida Calligraphy",Calibri;
+    font-size: 20px;
+}
+.btn1 {
+    font-size: 20px;
+    color: white;
+    border-width: 0;
+    background-color: #16A085;
+    padding: 2px 2px 2px 2px;
+    width: 100px;
+    height: auto;
+    cursor:pointer;
+}
+
+.btn2 {
+    font-size: 20px;
+    color: white;
+    border-width: 0;
+    background-color: #16A085;
+    padding: 2px 2px 2px 2px;
+    width: 100px;
+    cursor:pointer;
+    height: auto;
+}
+
+.footer {
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    background: #000;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.forget{
+    background-color: white;
+    color: #16a085;
+    margin-left: 280px;
+    font-size: 15px
+}
+
+.welcome{
+    font-size:50px;   
+}
+
+.validation{
+    border-width:1px;
+    border-color:red;
+    color:red;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Signup in TreeStan</title>
+    <link rel="stylesheet" type="text/css" href="Website.css" />
+    <script type="text/javascript">
+        var pass = document.regform.pass.value;  
+        var cpass = document.regform.cpass.value;
+        var no=document.reform.no.value;
+        function validation()
+        {
+        if(pass!=cpass)
+        {
+            alert("Password does not match");
+        }
+        else if(mob.length!=10 || isNaN(mob))
+        {
+            alert("Incorrect Number \nPlease Enter Number Correctly...")
+        }
+        else
+        {
+            alert("Registration Successfull");
+        }
+        }
+    </script>
+</head>
+<body>
+    <div class="logo">
+        <a href="Homepage.html">TreeStan</a>
+    </div>
+    <div class="menu-nav">
+        <ul>
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">DONATE</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="registration">
+        <center>
+                <font class="welcome">Welcome!!!</font><br /><br />
+                <form action="Insert.php" method="POST" onsubmit="validation();">
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td class="label">
+                               <font>First Name</font>
+                            </td>
+                            <td>                                
+                                <input type="text" class="txtBox" name="fname" placeholder="Please Enter First Name"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Last Name</font>
+                            </td>
+                            <td>
+                                <input type="text" class="txtBox" name="lname" placeholder="Please Enter Last Name"/>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td class="label">
+                               <font>Email</font>
+                            </td>
+                            <td>
+                                <input type="email" class="txtBox" name="mail" placeholder="example@host.com"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Mobile Number</font>
+                            </td>
+                            <td>
+                                <input type="text" class="txtBox" name="no" maxlength="10" placeholder="Please Enter Mobile Number"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Username</font>
+                            </td>
+                            <td>
+                                <input type="text" class="txtBox" name="uname" placeholder="Please Enter Unique Username"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Password</font>
+                            </td>
+                            <td>
+                                <input type="password" class="txtBox" name="pass" placeholder="********"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <font>Confirm Password</font>
+                            </td>
+                            <td>
+                                <input type="password" class="txtBox" name="cpass" placeholder="********"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button class="btn1" Name="Submit">Submit</button>
+                                <button class="btn2" Name="Cancel">Cancel</button>
+                            </td>
+                       </tr>
+                       <tr>
+                            <td colspan="2" align="center">      
+                                <font>Already Have an account??</font> <br/>
+                                <font><a href="Login.html">Log In</a></font>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+    </div>    
+    <div class="footer">
+        &copy;2020 All Rights Reserved
+    </div>
+</body>
+</html>
